@@ -35,7 +35,7 @@ export const ApiKey = React.createContext();
 
 export default function PermanentDrawerLeft() {
 
-  const [name,changeName]=React.useState("Riddham");
+  const [name,changeName]=React.useState("Samarth");
   const [api,changeApi]=React.useState("");
   const history = useHistory();
   const menuItems = [
