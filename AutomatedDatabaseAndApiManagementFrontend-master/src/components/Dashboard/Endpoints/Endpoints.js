@@ -169,7 +169,7 @@ const Endpoints = () => {
              <TextField
              id="notes"
              label="Notes"
-             //defaultValue="/riddham/database1"
+             //defaultValue="/samarth/database1"
              value={notes}
              onChange={updateNotes}
              variant="standard"
@@ -180,7 +180,7 @@ const Endpoints = () => {
             <TextField
                 id="standard-read-only-input"
                 label="Endpoints"
-                //defaultValue="/riddham/database1"
+                //defaultValue="/samarth/database1"
                 value={answer}
                 InputProps={{
                     readOnly: true,
